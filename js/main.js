@@ -2,22 +2,7 @@
     new WOW().init();
     var f = g("#main-nav");
     var c = g(".toggle");
-    var b = {
-        disableAt: false,
-        customToggle: c,
-        levelSpacing: 10,
-        navTitle: "Niwax Menu",
-        levelTitles: true,
-        levelTitles: true,
-        labelClose: false,
-        levelTitleAsBack: true,
-        levelOpen: "expand",
-        closeOnClick: true,
-        insertClose: true,
-        closeActiveLevel: true,
-        insertBack: true
-    };
-    var e = f.hcOffcanvasNav(b);
+
 
     function h() {
         if (g(window).scrollTop() >= 80) {
